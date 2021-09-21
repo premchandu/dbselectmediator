@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-0.0.255
+Bnd-LastModified: 1632192301881
+Export-Package: com.solugence.mediators.db.select;uses:="org.apache.axio
+ m.om,org.json,org.apache.commons.logging,javax.xml.namespace,org.apache
+ .synapse.config.xml,org.apache.synapse.mediators.db,javax.sql,org.apach
+ e.synapse"
+Import-Package: com.solugence.mediators.db.select;resolution:=optional,j
+ avax.sql;resolution:=optional,javax.xml.namespace;resolution:=optional,
+ org.apache.axiom.om;resolution:=optional,org.apache.commons.logging;res
+ olution:=optional,org.apache.synapse;resolution:=optional,org.apache.sy
+ napse.config.xml;resolution:=optional,org.apache.synapse.mediators.db;r
+ esolution:=optional,org.json;version="20171018.0";resolution:=optional
+Bundle-Name: com.solugence.mediators.db.select
+Bundle-Description: Advanced Database Lookup Mediator for WSO2 ESBTested
+  on JDK1.8 and EI 6.1.1Return a JSON array that contains JSON object, e
+ ach object will represent a row in the table
+Fragment-Host: synapse-core
+Bundle-SymbolicName: com.solugence.mediators.db.select
+Ignore-Package: javax.xml.namespace
+Bundle-Version: 1.0.0
+Built-By: prem
+Build-Jdk: 11.0.11
+
